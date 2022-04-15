@@ -1,0 +1,37 @@
+body{
+    background-color: green;
+}
+
+input[type=text] {
+
+    width: 80%;
+
+    padding: 12px 20px;
+
+    margin: 8px 0;
+
+    box-sizing: border-box;
+}
+
+.form{
+    padding: 15px 370px;
+}
+
+.form h1{
+    text-align: center;
+}
+
+.form .border{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #fff;
+    padding: 2px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.submit{
+    text-align: center;
+}
