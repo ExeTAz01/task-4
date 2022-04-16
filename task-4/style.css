@@ -3,11 +3,6 @@ body{
     font-family: sans-serif;
 }
 
-textarea {
-    resize: none;
-    outline: none;
-}
-
 select {
     width: 70%;
     padding: 16px 20px;
