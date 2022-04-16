@@ -1,37 +1,58 @@
 body{
     background-color: green;
+    font-family: sans-serif;
 }
 
+textarea {
+    resize: none;
+    outline: none;
+}
+
+select {
+    width: 70%;
+    padding: 16px 20px;
+    -moz-appearance: none;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+
 input[type=text] {
-
     width: 80%;
-
     padding: 12px 20px;
-
     margin: 8px 0;
-
     box-sizing: border-box;
 }
 
-.form{
-    padding: 15px 370px;
-}
-
-.form h1{
+h1{
     text-align: center;
+    ;
 }
 
-.form .border{
-    font-size: 20px;
-    font-family: sans-serif;
+.border{
     background-color: #fff;
-    padding: 2px;
     width: 500px;
     border: none;
     border-radius: 5px;
+    padding: 11px;
+}
 
+.form{
+ padding: 15px 390px;
 }
 
 .submit{
-    text-align: center;
+  background-color: green; 
+  border: none;
+  color: black;
+  padding: 2px 110px;
+  text-align: center;
+  font-size: 22px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+.select #position{
+ width: 499px;
 }
